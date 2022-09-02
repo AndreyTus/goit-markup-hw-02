@@ -4,39 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>Домашня робота 1</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
         <nav>
-            <a href="./index.html"><span>Web</span>studio</a>
-            <ul>
+            <a class="logo-web" href="./index.html">Web<span class="studio">studio</span></a>
+            <ul class="site-nav">
                 <li><a href="./index.html">Студія</a></li>
                 <li><a href="./portfolio.html">Портфоліо</a></li>
                 <li><a href="Контакти">Контакти</a></li>
             </ul>
         </nav>
             <ul>
-                <li>
+                <li class="site-mail">
                     <a href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li>
                     <a href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
-            
     </header>
     <main>
         <!--hero section-->
-        <section>
+        <section class="list-title">
             <h1>Ефективні рішення для вашого бізнесу</h1>
             <button type="button">Замовити послугу</button>
         </section>
         <!--quality section-->
-        <section>
-            <h2>Якості</h2>
-                <ul>
+        <section class="list-title">
+            <h2 hidden>Якості</h2>
+                <ul class="list-title">
                     <li>
                         <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
                         <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
@@ -71,9 +73,9 @@
             </ul>
         </section>
         <!--section team-->
-        <section>
+        <section class="list-title">
             <h2>Наша команда</h2>
-            <ul>
+            <ul class="list-title">
                 <li>
                     <img src="./img/img-4.jpg" alt="Ігор Дем'яненко" height="260" width="270">
                     <h3>Ігор Дем'яненко</h3>
@@ -98,13 +100,13 @@
         </section>
     </main>
     <!--Footer section-->
-    <footer>
-        <a href="./index.html"><span>Web</span>studio</a>
+    <footer class="footer-info">
+        <a class="logo-web" href="./index.html">Web<span class="studio2">studio</span></a>
         <address>
-            <ul>
-            <li><a href="м. Київ, пр-т Лесі Українки, 26">м. Київ, пр-т Лесі Українки, 26</a></li>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <ul class="color-info">
+                <li><a href="https://goo.gl/maps/TJPPdLGGKsBPAUss6">м. Київ, пр-т Лесі Українки, 26</a></li>
+                <li class="info-visible"><a href="mailto:info@example.com">info@example.com</a></li>
+                <li class="info-visible"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </footer>

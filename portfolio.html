@@ -4,36 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>Портфоліо</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <!-- Header section -->
     <header>
-        <a href="./index.html">Web<span>studio</span></a>
-        <ul>
+        <a class="logo-web" href="./index.html">Web<span class="studio">studio</span></a>
+        <ul class="site-nav">
             <li><a href="./index.html">Студія</a></li>
             <li><a href="./portfolio.html">Портфоліо</a></li>
             <li><a href="Контакти">Контакти</a></li>
         </ul>
         <nav>
             <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="site-mail"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </nav>
     </header>
     <!-- Slide section -->
     <main>
-        <h2>Portfolio</h2>
-        <ul>
-            <li><button type="button">Усі</button></li>
-            <li><button>Веб-сайти</button></li>
-            <li><button>Додатки</button></li>
-            <li><button>Дизайн</button></li>
-            <li><button>Маркетинг</button></li>
-        </ul>
-        <ul>
+        <h2 hidden>Portfolio</h2>
+        <div>
+            <ul>
+                <li><button class="btn" type="button">Усі</button></li>
+                <li><button class="btn2" type="button">Веб-сайти</button></li>
+                <li><button class="btn2" type="button">Додатки</button></li>
+                <li><button class="btn2" type="button">Дизайн</button></li>
+                <li><button class="btn2" type="button">Маркетинг</button></li>
+            </ul>
+        </div>
+        <section class="list-title">
+        <ul class="list-skill">
             <li>
                 <img src="./images/img.jpeg" alt="Команда Вебстудії">
                 <h2>Технокряк</h2>
@@ -80,15 +86,16 @@
                 <p>Додаток</p>
             </li>
         </ul>
+        </section>  
     </main>
     <!-- Footer section -->
-    <footer>
-        <a href="./goit-markup-hw-01/index.html">Web<span>studio</span></a>
+    <footer class="footer-info">
+        <a class="logo-web" href="./index.html">Web<span class="studio2">studio</span></a>
         <address>
-            <ul>
+            <ul class="color-info">
                 <li><a href="https://goo.gl/maps/TJPPdLGGKsBPAUss6">м. Київ, пр-т Лесі Українки, 26</a></li>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="info-visible"><a href="mailto:info@example.com">info@example.com</a></li>
+                <li class="info-visible"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </footer>

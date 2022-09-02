@@ -12,8 +12,64 @@
 
 
 
-
+ul {
+    list-style: none
+    }
 body {
     background-color: #F5F5F5;
     color: #212121;
+}
+
+/* section header */
+
+header {
+    background-color: #ECECEC;
+    color: #212121;
+}
+.logo-web {
+    color: #2196F3;
+}
+.studio {
+    color: #212121;
+}
+.site-nav a {
+    color: #2196F3;
+}
+.site-mail a {
+    color: #2196F3;
+}
+
+/* section btn */
+
+.btn {
+    background-color: #2196F3;
+    color: #ffffff;
+}
+.btn2 {
+    background-color: #F5F4FA;
+    color: #212121;
+}
+
+/* sectin main */
+
+.list-title {
+    color: #212121;
+}
+.list-skills p {
+    color: #757575;
+}
+
+/* section footer */
+
+.footer-info {
+    background-color: #2F303A;
+}
+.studio2 {
+    color: #FFFFFF;
+}
+.color-info a {
+    color: #FFFFFF;
+}
+.info-visible a {
+    color: rgba(255, 255, 255, 0.6);
 }
