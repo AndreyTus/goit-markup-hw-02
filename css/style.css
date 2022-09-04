@@ -1,75 +1,216 @@
-
-
-
-/* основний колір фона #F5F5F5*/
-/* колір мейна #EEEEEE */
-
-/* колір заголовків #212121 */
-/* колір підзаголовків #757575 */
-
-/* посилання синій колір #2196F3 */
-/* колір тексту на кнопці#FFFFFF */
-
-
-
 ul {
     list-style: none
     }
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 body {
-    background-color: #F5F5F5;
+    text-decoration: none;
+    font-family: "Raeway", "Roboto", sans-serif;
+    background: #f5f5f5;
     color: #212121;
+    font-style: normal;
 }
 
-/* section header */
+/* Section header 1-2 pages*/
 
 header {
     background-color: #ECECEC;
     color: #212121;
+    text-decoration: none;
 }
+.header-fonts {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+}
+
+/* Section navigation 1-2 pages */
+
 .logo-web {
     color: #2196F3;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 .studio {
     color: #212121;
 }
-.site-nav a {
+.site-info a {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.site-info .link:hover, 
+.site-info .link:focus {
     color: #2196F3;
 }
-.site-mail a {
+.site-info .link:active {
+    color: #2196F3;
+}
+.contacts a {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-style: normal; 
+    font-weight: 500;   
+    font-size: 14px;      
+    letter-spacing: 0.02em; 
+}
+.contacts a:hover, 
+.contacts a:focus {
+    color: #2196F3;
+}
+.contacts a:active {
     color: #2196F3;
 }
 
-/* section btn */
+/* Section btn 1-2 pages */
 
-.btn {
+.btn:hover, .btn:focus {
     background-color: #2196F3;
     color: #ffffff;
+    cursor: pointer;
 }
-.btn2 {
-    background-color: #F5F4FA;
+.btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: #212121;
 }
 
-/* sectin main */
+/* Pages Studio */
+/* Sectin hero */
+
+.hero {
+    background: #2F303A;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* Section quality */
 
 .list-title {
     color: #212121;
-}
-.list-skills p {
-    color: #757575;
+    font-family: "Roboto",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
-/* section footer */
+.list-title p {
+    color: #757575;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+h2 {
+    color: #212121;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Section team */
+
+.list-title-team {
+    color: #212121;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.list-title-team p {
+    color: #757575;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Pages Portfolio */
+/* Section main */
+
+.list-skill {
+    color: #212121;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.list-skill p {
+    color: #757575;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}
+
+/* Section footer 1-2 pages*/
 
 .footer-info {
     background-color: #2F303A;
+    text-decoration: none;
 }
 .studio2 {
     color: #FFFFFF;
 }
 .color-info a {
     color: #FFFFFF;
+    font-style: normal;
+    text-decoration: none;
 }
 .info-visible a {
     color: rgba(255, 255, 255, 0.6);
+}
+.color-info a:hover, 
+.color-info a:focus {
+    color: #2196F3;
+}
+.color-info a:active {
+    color: #2196F3;
 }
