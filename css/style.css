@@ -44,6 +44,7 @@ header {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 .studio {
     color: #212121;
