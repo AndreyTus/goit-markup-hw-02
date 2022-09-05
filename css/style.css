@@ -27,7 +27,7 @@ ul {
 body {
     text-decoration: none;
     font-family: "Roboto", sans-serif;
-    background: var(--main-color);
+    background-color: var(--main-color);
     color: var(--secondary-color);
     font-style: normal;
     letter-spacing: 0.03em;
@@ -64,6 +64,7 @@ header {
 }
 
 .site-info a {
+    color: var(--secondary-color);
     text-decoration: none;
     font-weight: 500;
     line-height: 1.14;
@@ -73,10 +74,11 @@ header {
 .site-info .link:focus {
     color: var(--btn-color);
 }
-.site-info .link:active {
+.link.current {
     color: var(--btn-color);
 }
 .contacts a {
+    color: var(--paragraph-color);
     text-decoration: none;
     font-weight: 500;      
     letter-spacing: 0.02em; 
@@ -94,9 +96,20 @@ header {
     cursor: pointer;
 }
 .btn {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.03em;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+}
+.btn1 {
+    background-color: var(--btn-color);
+    color: var(--btn-active-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
 }
 
 /* Pages Studio */
@@ -112,6 +125,7 @@ h1 {
     text-transform: uppercase;
 }
 .title {
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -121,35 +135,38 @@ h1 {
 
 /* Section quality */
 
-.list-title {
+.list-title h3{
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
-    text-transform: uppercase;
 }
 
 .list-title p {
     color: var(--paragraph-color);
-    font-weight: 400;
+    font-size: 14px;
     line-height: 1.71;
 }
 
 /* Section team */
 
-.list-team {
+.list-team h3 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    text-align: center;
 }
 .list-team p {
     color: var(--paragraph-color);
-    font-weight: 400;
     font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+.list-team {
+    text-align: center;
 }
 
 /* Pages Portfolio - Section main*/
 
-.list-skill {
+.list-skill h2 {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
