@@ -94,7 +94,7 @@ header {
 
 .btn:hover, .btn:focus {
     background-color: var(--btn-color);
-    color: var(--secondary-color);
+    color: var(--btn-active-color);
     cursor: pointer;
 }
 .btn {
