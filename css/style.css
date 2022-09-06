@@ -2,6 +2,7 @@
     --main-color: #f5f5f5;
     --secondary-color: #212121;
     --btn-color: #2196f3;
+    --btn-background: #F5F4FA;
     --btn-active-color: #ffffff;
     --header-color: #ECECEC;
     --paragraph-color: #757575;
@@ -96,6 +97,7 @@ header {
     cursor: pointer;
 }
 .btn {
+    background-color: var(--btn-background);
     font-family: "Roboto", sans-serif;
     letter-spacing: 0.03em;
     font-weight: 500;
